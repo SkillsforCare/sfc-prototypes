@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="/url/of/previous/page">Back</a>
+
+      <a href="/"><h1 class="heading-large">
+        Establishment name
+      </h1>
+      </a>
+
+      <h2 class="heading-medium">
+        Your worker records
+      </h2>
+
+      <p>These are the worker records you've added for this establishment.</p>
+
+      <ul class="list">
+        <li><a href="/">Lois Lane</a></li>
+        <li><a href="/">Clark Kent</a></li>
+        <li><a href="/">Worker Z</a></li>
+        <li><a href="/">Q12345Z</a></li>
+      </ul>
+
+      <br>
+
+      <div class="form-group">
+        <a href="/" class="button">Add another</a>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
